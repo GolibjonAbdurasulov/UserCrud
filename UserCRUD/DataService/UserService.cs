@@ -33,7 +33,7 @@ public class UserService : IService<User,long>
         {
             Id = user.Id,
             Name = user.Name,
-            Syename = user.Syename,
+            Surname = user.Surname,
             PhoneNumber = user.PhoneNumber,
             Email = user.Email,
             Password = user.Password
