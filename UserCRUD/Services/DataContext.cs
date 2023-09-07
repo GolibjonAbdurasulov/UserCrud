@@ -9,7 +9,7 @@ public class DataContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
-        string connectionString = "Host=localhost; Port=5432; Database=c; username=postgres; password=zuxriddin25";
+        string connectionString = "Host=localhost; Port=5432; Database=CRUD; username=postgres; password=3214";
 
         optionsBuilder
             .UseNpgsql(connectionString);

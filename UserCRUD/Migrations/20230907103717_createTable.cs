@@ -18,7 +18,7 @@ namespace UserCRUD.Migrations
                     id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     name = table.Column<string>(type: "text", nullable: false),
-                    syrname = table.Column<string>(type: "text", nullable: false),
+                    surname = table.Column<string>(type: "text", nullable: false),
                     phome_number = table.Column<string>(type: "text", nullable: false),
                     email = table.Column<string>(type: "text", nullable: false),
                     password = table.Column<string>(type: "text", nullable: false)
